@@ -9,3 +9,9 @@ interface IAnimateWithGsapTimelineProps {
     duration: number;
   };
 }
+
+interface IAnimateWithGsap {
+  target: string;
+  animationProps: gsap.TweenVars;
+  scrollProps?: ScrollTrigger.Vars;
+}
