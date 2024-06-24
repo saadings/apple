@@ -72,6 +72,7 @@ const HowItWorks = () => {
                 preload="none"
                 muted
                 autoPlay
+                loop
                 ref={videoRef}
               >
                 <source src="/videos/frame.mp4" type="video/mp4" />
